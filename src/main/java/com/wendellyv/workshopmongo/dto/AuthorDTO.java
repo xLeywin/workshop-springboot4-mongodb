@@ -4,21 +4,18 @@ import com.wendellyv.workshopmongo.domain.User;
 import org.springframework.data.annotation.Id;
 
 import java.io.Serializable;
-import java.util.Objects;
 
-public class UserDTO implements Serializable {
+public class AuthorDTO implements Serializable {
 
     @Id
     private String id;
     private String name;
-    private String email;
 
-    public UserDTO() {}
+    public AuthorDTO() {}
 
-    public UserDTO(User obj) {
+    public AuthorDTO(User obj) {
         id = obj.getId();
         name = obj.getName();
-        email = obj.getEmail();
     }
 
     public String getId() {
@@ -35,13 +32,5 @@ public class UserDTO implements Serializable {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
     }
 }
