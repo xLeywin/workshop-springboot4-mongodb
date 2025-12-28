@@ -1,5 +1,5 @@
 # Workshop MongoDB com Spring Boot
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/xLeywin/workshop-springboot4-jpa/blob/main/LICENSE) 
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/xLeywin/workshop-springboot4-mongodb/blob/main/LICENSE)
 
 # Sobre o projeto
 Este projeto consiste no desenvolvimento de uma API REST utilizando Spring Boot e MongoDB, com foco na modelagem de dados orientada a documentos. A aplicação permite o gerenciamento de usuários, posts e comentários, aplicando operações básicas de CRUD e boas práticas de organização em camadas.
